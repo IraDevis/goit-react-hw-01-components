@@ -1,0 +1,16 @@
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  composes: status;
+  background-color: darkgreen;
+}
+
+.isOffline {
+  composes: status;
+  background-color: darkred;
+}
