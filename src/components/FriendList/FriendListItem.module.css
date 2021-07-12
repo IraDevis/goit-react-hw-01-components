@@ -1,5 +1,6 @@
 .status {
   display: block;
+  margin-left: 10px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -13,4 +14,12 @@
 .isOffline {
   composes: status;
   background-color: darkred;
+}
+
+.avatar {
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: bold;
 }
