@@ -6,7 +6,7 @@ import styles from "./Statistic.module.css";
 const Statistic = ({ title, stats }) => {
   return (
     <section className={styles.statistic}>
-      <h2>Upload stats</h2>
+      {title && <h2>{title}</h2>}
 
       <ul className={styles.list}>
         {stats.map(({ id, label, percentage }) => (
